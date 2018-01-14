@@ -1,0 +1,12 @@
+#ignore 文件
+.[obj]
+.[tlog]
+.[lastbuildstate]
+v15/
+Release/
+# User-specific files
+*.suo
+*.db
+*.user
+*.userosscache
+*.sln.docstates
