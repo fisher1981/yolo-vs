@@ -9,6 +9,7 @@
 #pragma warning(disable: 4018)
 #pragma warning(disable: 4477)
 #pragma warning(disable: 4028)
+#pragma warning(disable: 4267)
 
 
 #define SECRET_NUM -1234

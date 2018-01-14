@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "darknet", "darknet.vcxproj", "{621B3914-936D-4BD9-843A-AD50F22B178D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "darknet_exe", "darknet.vcxproj", "{621B3914-936D-4BD9-843A-AD50F22B178D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7439B12-F6C7-4F3D-8D1A-7F9FB2D48B46}
 	EndGlobalSection
 EndGlobal

@@ -31,6 +31,7 @@
 #include "softmax_layer.h"
 #include "lstm_layer.h"
 #include "utils.h"
+#pragma warning(disable:4267)
 
 typedef struct{
     char *type;

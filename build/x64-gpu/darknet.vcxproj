@@ -22,7 +22,7 @@
     <ProjectGuid>{621B3914-936D-4BD9-843A-AD50F22B178D}</ProjectGuid>
     <RootNamespace>darknet</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
-    <ProjectName>darknet_gpu</ProjectName>
+    <ProjectName>darknet_x64</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -73,7 +73,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)$(Platform)\</OutDir>
     <IntDir>$(Platform)\nogpu_$(Configuration)\</IntDir>
-    <TargetName>darknet2</TargetName>
+    <TargetName>darknet</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <TargetExt>.exe</TargetExt>
@@ -151,7 +151,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\dev\opencv-2.4\build\include;..\..\3rdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\win32;C:\dev\opencv-2.4\build\include;..\..\3rdparty\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>OPENCV;_TIMESPEC_DEFINED;_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <CLanguageStandard>c11</CLanguageStandard>
       <CppLanguageStandard>c++1y</CppLanguageStandard>
@@ -172,6 +172,9 @@
       <TargetMachinePlatform>64</TargetMachinePlatform>
       <CodeGeneration>compute_30,sm_30;compute_52,sm_52</CodeGeneration>
     </CudaCompile>
+    <PostBuildEvent>
+      <Command>xcopy /r /y $(OutDir)darknet.exe c:\ml\release64</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <CudaCompile Include="..\..\src\activation_kernels.cu" />
@@ -294,6 +297,18 @@
     <ClInclude Include="..\..\win32\getopt.h" />
     <ClInclude Include="..\..\win32\gettimeofday.h" />
     <ClInclude Include="..\..\win32\unistd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\cu\activation_kernels.cu" />
+    <None Include="..\..\cu\avgpool_layer_kernels.cu" />
+    <None Include="..\..\cu\blas_kernels.cu" />
+    <None Include="..\..\cu\col2im_kernels.cu" />
+    <None Include="..\..\cu\convolutional_kernels.cu" />
+    <None Include="..\..\cu\crop_layer_kernels.cu" />
+    <None Include="..\..\cu\deconvolutional_kernels.cu" />
+    <None Include="..\..\cu\dropout_layer_kernels.cu" />
+    <None Include="..\..\cu\im2col_kernels.cu" />
+    <None Include="..\..\cu\maxpool_layer_kernels.cu" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

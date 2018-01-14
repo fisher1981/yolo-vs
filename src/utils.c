@@ -16,6 +16,7 @@
 #pragma warning(disable: 4996)
 #pragma warning(disable: 4244)
 #pragma warning(disable: 4293)
+#pragma warning(disable: 4267)
 /*
 // old timing. is it better? who knows!!
 double get_wall_time()
