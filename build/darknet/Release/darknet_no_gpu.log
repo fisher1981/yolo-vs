@@ -1,0 +1,798 @@
+﻿C:\Dev\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (darknet_no_gpu_cv.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  art.c
+  attention.c
+..\..\examples\attention.c(72): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\attention.c(82): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\attention.c(112): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\examples\attention.c(113): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\examples\attention.c(134): warning C4018: '<': signed/unsigned mismatch
+..\..\examples\attention.c(167): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\examples\attention.c(212): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\attention.c(213): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\attention.c(216): warning C4018: '>': signed/unsigned mismatch
+..\..\examples\attention.c(186): warning C4101: 'im': unreferenced local variable
+..\..\examples\attention.c(245): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\attention.c(333): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  captcha.c
+..\..\examples\captcha.c(29): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\captcha.c(82): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  cifar.c
+..\..\examples\cifar.c(5): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\cifar.c(19): warning C4018: '<': signed/unsigned mismatch
+..\..\examples\cifar.c(24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\cifar.c(26): warning C4018: '>': signed/unsigned mismatch
+..\..\examples\cifar.c(50): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\cifar.c(69): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\examples\cifar.c(72): warning C4018: '<': signed/unsigned mismatch
+..\..\examples\cifar.c(77): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\cifar.c(79): warning C4018: '>': signed/unsigned mismatch
+..\..\examples\cifar.c(67): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\cifar.c(105): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\cifar.c(133): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\cifar.c(174): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\cifar.c(198): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  classifier.c
+..\..\examples\classifier.c(19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\classifier.c(34): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\classifier.c(44): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\classifier.c(74): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\examples\classifier.c(75): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\examples\classifier.c(99): warning C4018: '<': signed/unsigned mismatch
+..\..\examples\classifier.c(109): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\examples\classifier.c(110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\examples\classifier.c(151): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\classifier.c(158): warning C4018: '>': signed/unsigned mismatch
+..\..\examples\classifier.c(133): warning C4477: 'printf' : format string '%lf' requires an argument of type 'double', but variadic argument 1 has type 'clock_t'
+..\..\examples\classifier.c(153): warning C4477: 'printf' : format string '%lf' requires an argument of type 'double', but variadic argument 6 has type 'clock_t'
+..\..\examples\classifier.c(186): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\classifier.c(251): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\classifier.c(320): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\classifier.c(378): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\classifier.c(437): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\classifier.c(525): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\classifier.c(526): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\classifier.c(629): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\classifier.c(664): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  coco.c
+..\..\examples\coco.c(16): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\coco.c(57): warning C4018: '<': signed/unsigned mismatch
+..\..\examples\coco.c(77): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\coco.c(108): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\examples\coco.c(109): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\examples\coco.c(101): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\coco.c(102): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\coco.c(103): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\coco.c(104): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\coco.c(133): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\coco.c(159): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\coco.c(221): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\coco.c(245): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\coco.c(307): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\coco.c(349): warning C4305: 'function': truncation from 'double' to 'float'
+  darknet.c
+..\..\examples\darknet.c(66): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\examples\darknet.c(67): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\examples\darknet.c(69): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\examples\darknet.c(70): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\examples\darknet.c(71): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\examples\darknet.c(75): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\examples\darknet.c(76): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\examples\darknet.c(152): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\examples\darknet.c(418): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\examples\darknet.c(448): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+  detector.c
+..\..\examples\detector.c(11): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\detector.c(17): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\detector.c(28): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\detector.c(61): warning C4018: '<': signed/unsigned mismatch
+..\..\examples\detector.c(65): warning C4018: '>': signed/unsigned mismatch
+..\..\examples\detector.c(124): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(173): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\examples\detector.c(174): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\examples\detector.c(166): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(167): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(168): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(169): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(198): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\examples\detector.c(199): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\examples\detector.c(191): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(192): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(193): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(194): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(219): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\examples\detector.c(220): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\examples\detector.c(212): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(213): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(214): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(215): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\detector.c(245): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\detector.c(289): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\detector.c(290): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\detector.c(378): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\detector.c(422): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\detector.c(423): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\detector.c(495): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\detector.c(511): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\detector.c(513): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\detector.c(579): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\detector.c(642): warning C4305: 'function': truncation from 'double' to 'float'
+  lsd.c
+  nightmare.c
+..\..\examples\nightmare.c(12): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\nightmare.c(303): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\examples\nightmare.c(306): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\examples\nightmare.c(307): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\examples\nightmare.c(321): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\nightmare.c(322): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\nightmare.c(324): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+..\..\examples\nightmare.c(382): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\examples\nightmare.c(407): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+..\..\examples\nightmare.c(407): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+  regressor.c
+..\..\examples\regressor.c(21): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\regressor.c(31): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\regressor.c(74): warning C4018: '<': signed/unsigned mismatch
+..\..\examples\regressor.c(95): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\regressor.c(98): warning C4018: '>': signed/unsigned mismatch
+  rnn.c
+..\..\examples\rnn.c(159): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\rnn.c(191): warning C4018: '<': signed/unsigned mismatch
+..\..\examples\rnn.c(207): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\rnn.c(429): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\rnn.c(408): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\rnn.c(467): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\rnn.c(457): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\rnn.c(528): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\examples\rnn.c(529): warning C4244: 'function': conversion from 'time_t' to 'int', possible loss of data
+  rnn_vid.c
+  segmenter.c
+..\..\examples\segmenter.c(21): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\segmenter.c(31): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\segmenter.c(81): warning C4018: '<': signed/unsigned mismatch
+..\..\examples\segmenter.c(116): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\segmenter.c(119): warning C4018: '>': signed/unsigned mismatch
+  super.c
+..\..\examples\super.c(7): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\super.c(35): warning C4018: '<': signed/unsigned mismatch
+..\..\examples\super.c(47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  tag.c
+..\..\examples\tag.c(5): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\tag.c(46): warning C4018: '<': signed/unsigned mismatch
+..\..\examples\tag.c(56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\tag.c(59): warning C4018: '>': signed/unsigned mismatch
+  yolo.c
+..\..\examples\yolo.c(9): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\yolo.c(50): warning C4018: '<': signed/unsigned mismatch
+..\..\examples\yolo.c(62): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\examples\yolo.c(88): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\examples\yolo.c(89): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\examples\yolo.c(81): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\yolo.c(82): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\yolo.c(83): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\yolo.c(84): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\examples\yolo.c(103): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\yolo.c(129): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\yolo.c(188): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+..\..\examples\yolo.c(212): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\yolo.c(277): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\examples\yolo.c(316): warning C4305: 'function': truncation from 'double' to 'float'
+  activations.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  activation_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  avgpool_layer.c
+  Compiling...
+  batchnorm_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\batchnorm_layer.c(99): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+..\..\src\batchnorm_layer.c(114): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+..\..\src\batchnorm_layer.c(124): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\batchnorm_layer.c(143): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\batchnorm_layer.c(144): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\batchnorm_layer.c(145): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\batchnorm_layer.c(146): warning C4305: 'function': truncation from 'double' to 'float'
+  blas.c
+..\..\src\blas.c(96): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\blas.c(119): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\src\blas.c(112): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\blas.c(133): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\blas.c(154): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\blas.c(229): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\src\blas.c(222): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\blas.c(239): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\blas.c(240): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\src\blas.c(271): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  box.c
+..\..\src\box.c(104): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(152): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(153): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(154): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(155): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(139): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(140): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(141): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(142): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(144): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(174): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(175): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(176): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(177): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(161): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(162): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(163): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(164): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(166): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(203): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(204): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(205): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(206): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(186): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(187): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(188): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(189): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(191): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\box.c(226): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(227): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(228): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(229): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(332): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(333): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(342): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\box.c(343): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  col2im.c
+..\..\src\col2im.c(34): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  connected_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\connected_layer.c(46): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\connected_layer.c(203): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  convolutional_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\convolutional_layer.c(34): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\src\convolutional_layer.c(47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\src\convolutional_layer.c(57): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\src\convolutional_layer.c(205): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\convolutional_layer.c(333): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\convolutional_layer.c(445): warning C4028: formal parameter 1 different from declaration
+  cost_layer.c
+..\..\src\cost_layer.c(80): warning C4028: formal parameter 1 different from declaration
+  crnn_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  crop_layer.c
+..\..\src\crop_layer.c(53): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\src\crop_layer.c(54): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  cuda.c
+  data.c
+..\..\src\data.c(197): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\data.c(198): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\data.c(309): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(314): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(358): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(385): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(387): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\data.c(388): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\data.c(395): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(441): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(463): warning C4018: '<': signed/unsigned mismatch
+..\..\src\data.c(796): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(797): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(798): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(799): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(818): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\src\data.c(793): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(794): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(796): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(797): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(798): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(799): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(915): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(916): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(917): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(918): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\src\data.c(936): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\src\data.c(912): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(913): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(915): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(916): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(917): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(918): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(980): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+..\..\src\data.c(1345): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\data.c(1348): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\data.c(1377): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\data.c(1378): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\data.c(1408): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\data.c(1414): warning C4305: 'function': truncation from 'double' to 'float'
+  deconvolutional_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\deconvolutional_layer.c(41): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\deconvolutional_layer.c(151): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  demo.c
+  detection_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\detection_layer.c(85): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\src\detection_layer.c(100): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\src\detection_layer.c(161): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+..\..\src\detection_layer.c(162): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\src\detection_layer.c(164): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\detection_layer.c(175): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\detection_layer.c(176): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\detection_layer.c(179): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\src\detection_layer.c(212): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\detection_layer.c(81): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\detection_layer.c(240): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\detection_layer.c(241): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  dropout_layer.c
+..\..\src\dropout_layer.c(16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  gemm.c
+  gru_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  im2col.c
+  image.c
+..\..\src\image.c(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\image.c(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\image.c(143): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+..\..\src\image.c(211): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\image.c(212): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\image.c(213): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\image.c(214): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\image.c(293): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+..\..\src\image.c(299): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+..\..\src\image.c(258): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\image.c(281): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\image.c(282): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\image.c(283): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\image.c(284): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\image.c(369): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(373): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(381): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(385): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(734): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(754): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\src\image.c(752): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\image.c(753): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\image.c(773): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(774): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(779): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(780): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(792): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(793): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(798): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(799): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(849): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\image.c(995): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\image.c(998): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(1000): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(1001): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(1046): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(1047): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(1048): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(1069): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(1070): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(1071): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(1109): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\image.c(1133): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\image.c(1163): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\image.c(1182): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\image.c(1198): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\src\image.c(1372): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\image.c(1373): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\image.c(1374): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\image.c(1375): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\image.c(1427): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  layer.c
+  Compiling...
+  list.c
+  local_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\local_layer.c(57): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  lstm_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  matrix.c
+  maxpool_layer.c
+  network.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\network.c(93): warning C4018: '<': signed/unsigned mismatch
+..\..\src\network.c(93): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\network.c(98): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\network.c(102): warning C4018: '>': signed/unsigned mismatch
+..\..\src\network.c(107): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\network.c(109): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\network.c(111): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\network.c(113): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\network.c(627): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\network.c(628): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  normalization_layer.c
+  option_list.c
+..\..\src\option_list.c(130): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\option_list.c(137): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  parser.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\parser.c(270): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\src\parser.c(289): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\parser.c(318): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\parser.c(343): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\parser.c(445): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\parser.c(551): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\parser.c(552): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\parser.c(553): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\parser.c(564): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\parser.c(565): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\parser.c(566): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\parser.c(609): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  region_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\region_layer.c(81): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\region_layer.c(82): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\region_layer.c(93): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\region_layer.c(94): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\region_layer.c(143): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\region_layer.c(148): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+..\..\src\region_layer.c(222): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\region_layer.c(256): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\region_layer.c(257): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\region_layer.c(260): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\src\region_layer.c(271): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\src\region_layer.c(272): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\src\region_layer.c(300): warning C4244: 'function': conversion from 'const float' to 'int', possible loss of data
+..\..\src\region_layer.c(325): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\region_layer.c(204): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\region_layer.c(316): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\src\region_layer.c(356): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\region_layer.c(357): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\region_layer.c(394): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  reorg_layer.c
+  rnn_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  route_layer.c
+  shortcut_layer.c
+c:\ml\myyolo2\src\activations.h(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\ml\myyolo2\src\activations.h(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(49): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(56): warning C4305: 'return': truncation from 'double' to 'float'
+c:\ml\myyolo2\src\activations.h(68): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(76): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(78): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\ml\myyolo2\src\activations.h(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  softmax_layer.c
+  tree.c
+  utils.c
+  getopt.c
+  gettimeofday.c
+C:\Dev\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\ml\myyolo2\build\darknet\Release\darknet_dll.dll) does not match the Linker's OutputFile property value (C:\ml\myyolo2\build\darknet\Release\darknet2.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Dev\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(darknet_dll) does not match the Linker's OutputFile property value (darknet2). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library C:\ml\myyolo2\build\darknet\Release\darknet_dll.lib and object C:\ml\myyolo2\build\darknet\Release\darknet_dll.exp
+  Generating code
+  All 613 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  darknet_no_gpu.vcxproj -> C:\ml\myyolo2\build\darknet\Release\darknet_dll.dll
+  C:\ml\myyolo2\build\darknet\Release\darknet2.dll
+  1 File(s) copied

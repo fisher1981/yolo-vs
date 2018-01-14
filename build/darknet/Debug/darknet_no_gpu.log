@@ -1,0 +1,127 @@
+﻿  utils.c
+c:\ml\myyolo2\src\utils.c(10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+  tree.c
+c:\ml\myyolo2\src\tree.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  softmax_layer.c
+c:\ml\myyolo2\src\layer.h(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  shortcut_layer.c
+c:\ml\myyolo2\src\layer.h(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  route_layer.c
+c:\ml\myyolo2\src\network.h(4): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  rnn_layer.c
+c:\ml\myyolo2\src\activations.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  reorg_layer.c
+c:\ml\myyolo2\src\box.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  region_layer.c
+c:\ml\myyolo2\src\region_layer.h(4): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  parser.c
+c:\ml\myyolo2\src\activations.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  option_list.c
+c:\ml\myyolo2\src\list.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  normalization_layer.c
+c:\ml\myyolo2\src\box.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  network.c
+c:\ml\myyolo2\src\network.h(4): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  maxpool_layer.c
+c:\ml\myyolo2\src\box.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  matrix.c
+c:\ml\myyolo2\src\matrix.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  lstm_layer.c
+c:\ml\myyolo2\src\activations.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  local_layer.c
+c:\ml\myyolo2\src\cuda.h(4): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  list.c
+c:\ml\myyolo2\src\list.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  layer.c
+c:\ml\myyolo2\src\layer.h(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  image.c
+c:\ml\myyolo2\src\box.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  im2col.c
+  Generating Code...
+  Compiling...
+  gru_layer.c
+c:\ml\myyolo2\src\activations.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  gemm.c
+c:\ml\myyolo2\src\utils.h(5): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  dropout_layer.c
+c:\ml\myyolo2\src\layer.h(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  detection_layer.c
+c:\ml\myyolo2\src\layer.h(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  demo.c
+c:\ml\myyolo2\src\network.h(4): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  deconvolutional_layer.c
+c:\ml\myyolo2\src\cuda.h(4): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  data.c
+c:\ml\myyolo2\src\data.h(5): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  cuda.c
+  crop_layer.c
+c:\ml\myyolo2\src\box.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  crnn_layer.c
+c:\ml\myyolo2\src\activations.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  cost_layer.c
+c:\ml\myyolo2\src\layer.h(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  convolutional_layer.c
+c:\ml\myyolo2\src\cuda.h(4): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  connected_layer.c
+c:\ml\myyolo2\src\activations.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  col2im.c
+c:\ml\myyolo2\src\col2im.c(34): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  box.c
+c:\ml\myyolo2\src\box.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  blas.c
+c:\ml\myyolo2\src\blas.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  batchnorm_layer.c
+c:\ml\myyolo2\src\cuda.h(4): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  avgpool_layer.c
+c:\ml\myyolo2\src\box.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  activation_layer.c
+c:\ml\myyolo2\src\activations.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  activations.c
+c:\ml\myyolo2\src\activations.h(3): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  Generating Code...
+  Compiling...
+  yolo.c
+c:\ml\myyolo2\examples\yolo.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  voxel.c
+c:\ml\myyolo2\examples\voxel.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  tag.c
+c:\ml\myyolo2\examples\tag.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  swag.c
+c:\ml\myyolo2\examples\swag.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  super.c
+c:\ml\myyolo2\examples\super.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  segmenter.c
+c:\ml\myyolo2\examples\segmenter.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  rnn_vid.c
+c:\ml\myyolo2\examples\rnn_vid.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  rnn.c
+c:\ml\myyolo2\examples\rnn.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  regressor.c
+c:\ml\myyolo2\examples\regressor.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  nightmare.c
+c:\ml\myyolo2\examples\nightmare.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  lsd.c
+c:\ml\myyolo2\examples\lsd.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  go.c
+c:\ml\myyolo2\examples\go.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  dice.c
+c:\ml\myyolo2\examples\dice.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  detector.c
+c:\ml\myyolo2\examples\detector.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  darknet.c
+c:\ml\myyolo2\examples\darknet.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  coco.c
+c:\ml\myyolo2\examples\coco.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  classifier.c
+c:\ml\myyolo2\examples\classifier.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  cifar.c
+c:\ml\myyolo2\examples\cifar.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  captcha.c
+c:\ml\myyolo2\examples\captcha.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  attention.c
+c:\ml\myyolo2\examples\attention.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  Generating Code...
+  Compiling...
+  art.c
+c:\ml\myyolo2\examples\art.c(1): fatal error C1083: Cannot open include file: 'darknet.h': No such file or directory
+  Generating Code...
