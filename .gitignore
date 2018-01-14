@@ -8,5 +8,12 @@ Release/
 *.suo
 *.db
 *.user
+*.obj
+*.exe
+*.filters
+.iobj
+*.log
+*.tlog
+*.pdb
 *.userosscache
 *.sln.docstates
